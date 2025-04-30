@@ -1,1 +1,242 @@
 
+body {
+    margin: 0;
+    padding: 0;
+   /* overflow: hidden;*/
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    color: white;
+}
+
+.navigation a {
+    color: white;
+    padding-right: 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+header {
+    background-image: url("../images/BG.png");
+    background-size: cover;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.headtext {
+    text-transform: uppercase;
+    padding-left: 70px;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+
+.lowertext {
+    padding-left: 70px;
+    padding-top: 0px;
+    font-size: 20px;
+    padding-bottom: 140px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    padding: 40px 80px 0 80px;
+    column-gap: 20px;
+    text-align: center;
+}
+
+
+.breif {
+    color: rgb(0, 0, 0);
+    font-size: small;
+}
+
+
+hr {
+    margin-left: 50px;
+    padding-left: 60px;
+    width: 20%;
+    height: 1px;
+}
+
+
+.icons {
+    display: flex;
+    padding-left: 130px;
+    column-gap: 10px;
+}
+
+
+.divider {
+    border: 1px solid lightblue;
+    height: 100%;
+}
+
+
+.image {
+    display: flex;
+    column-gap: 40px;
+    padding: 80px 30px 0 100px;
+}
+
+
+.headarea {
+    height: 200px;
+    width: 930px;
+    background-color: #edd7d7;
+    margin: -80px 0 0 0;
+    padding: 150px 0 0 135px;
+}
+
+
+.font {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(34, 0, 255);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+.figure {
+    padding-top: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #140748;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+.Services {
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.intro {
+    padding-top: 0;
+    margin-top: 0;
+    padding-right: 50px;
+}
+
+
+.hell {
+    padding: 80px 10px 0 10px;
+}
+
+
+.teacher {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
+
+
+.and {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: #161616;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+
+.navigation3 {
+    padding-top: 120px;
+    font-size: small;
+}
+
+
+.flex {
+    display: flex;
+    column-gap: 10px;
+    padding-top: 20px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+.sign {
+    font-size: 20px;
+}
+
+
+.features3 {
+    display: flex;
+    padding-left: 20px;
+}
+
+
+.lack {
+    margin-top: 10px;
+}
+
+
+.saini {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    padding: 100px 0 10px 0;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 15px;
+}
+
+
+.personalities {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 1px;
+    padding: 20px 15px 0 15px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.personalities img {
+    height: 200px;
+    width: 200px;
+    padding-bottom: 10px;
+    border-radius: 0;
+}
+
+.personalities .ab4 {
+    padding-bottom: 30px;
+}
+
+.personalities input {
+    background-color: white;
+    color: midnightblue;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px gray;
+}
+
+
+.but {
+    padding-bottom: 15px;
+}
+
+
+.img img {
+   /* overflow: hidden;*/
+    width: 935px;
+    height: 500px;
+    padding: 100px 5px 50px 5px;
+    object-fit: cover; 
+}
